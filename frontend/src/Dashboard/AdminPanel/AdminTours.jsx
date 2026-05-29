@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import useFetch from "../../hooks/useFetch";
 import BASE_URL from "../../utils/config";
 import AdminToursCards from "../../shared/AdminToursCards";
-
+//admin panel
 const AdminTours = () => {
   // const {apiData: tours} = useFetch(`${BASE_URL}/tour`);
   const [pageCount, setPageCount] = useState(0);
