@@ -48,7 +48,6 @@ app.use("/api/booking", bookingRoutes);
 app.get("/", (req, res) => {
   res.send("Welcome to the Trips & Travels API!");
 });
-
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

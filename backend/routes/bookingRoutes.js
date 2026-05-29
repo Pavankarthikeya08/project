@@ -5,7 +5,7 @@ import { createBooking, getBooking, getAllBookings, deleteBooking } from '../con
 
 const router = express.Router();
 
-// Create a new booking
+// Create a new bookings
 router.post('/', createBooking);
 
 // Get a specific booking by ID
