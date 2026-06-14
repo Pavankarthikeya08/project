@@ -5,6 +5,7 @@ import AdminToursCards from "../../shared/AdminToursCards";
 //admin panel
 const AdminTours = () => {
   // const {apiData: tours} = useFetch(`${BASE_URL}/tour`);
+  //for tours
   const [pageCount, setPageCount] = useState(0);
   const [page, setPage] = useState(0);
   const { apiData: tours, error } = useFetch(`${BASE_URL}/tour?page=${page}`);
