@@ -14,7 +14,8 @@ import Bookings from '../Dashboard/AdminPanel/Bookings'
 import AdminTours from '../Dashboard/AdminPanel/AdminTours'
 import CreateTours from '../Dashboard/AdminPanel/CreateTours'
 import UpdateTours from '../Dashboard/AdminPanel/UpdateTour'
-//all routers
+//all routers 
+
 const Router = () => {
   return (
     <Routes>
