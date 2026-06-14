@@ -11,3 +11,4 @@ const CalculateAvg = reviews => {
 }
 
 export default CalculateAvg
+//eexporting 
