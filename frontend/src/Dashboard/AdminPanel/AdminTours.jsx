@@ -4,7 +4,6 @@ import BASE_URL from "../../utils/config";
 import AdminToursCards from "../../shared/AdminToursCards";
 //admin panel
 const AdminTours = () => {
-  // const {apiData: tours} = useFetch(`${BASE_URL}/tour`);
   
   const [pageCount, setPageCount] = useState(0);
   const [page, setPage] = useState(0);

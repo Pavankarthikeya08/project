@@ -31,3 +31,4 @@ const Booked = () => {
 };
 
 export default Booked;
+ // open page
